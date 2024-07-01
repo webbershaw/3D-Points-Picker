@@ -68,6 +68,7 @@ def main():
             start_index = 0
 
     for i in range(start_index, len(ply_files)):
+        print(i)
 
         ply_file = ply_files[i]
         file_path = os.path.join(folder_path, ply_file)
